@@ -10,6 +10,16 @@ namespace Bridge_Pattern
     {
         static void Main(string[] args)
         {
+            Color black = new Black();
+            DrawShape retangle = new Rectangle(black);
+           // retangle.setColor(black);
+            retangle.draw();
+
+            Color pink = new Pink();
+
+            DrawShape circle = new Circle(pink);
+          //  circle.setColor(pink);
+            circle.draw();
         }
     }
 }
